@@ -18,12 +18,13 @@
                         <p class="muted text-center">
                             請輸入帳號及密碼
                         </p>
-                        <input type="text" placeholder="帳號" class="input-block-level">
-                        <input type="password" placeholder="密碼" class="input-block-level">
+                        <input type="text" placeholder="帳號" class="input-block-level" required="required">
+                        <input type="password" placeholder="密碼" class="input-block-level"required="required">
                         <button class="btn btn-large btn-primary btn-block" type="submit">登入</button>
                     </form>
                 </div>
                 <div id="forgot" class="tab-pane">
+                    <!--  忘記密碼欄位-->
                     <form action="index.html" class="form-signin">
                         <p class="muted text-center">
                             輸入您的E-mail
@@ -34,13 +35,13 @@
                         <button class="btn btn-large btn-danger btn-block" type="submit">找回密碼</button>
                     </form>
                 </div>
+                <!--  註冊帳號欄位-->
                 <div id="signup" class="tab-pane">
                     <form action="index.html" class="form-signin">
-                        <input type="text" placeholder="帳號" class="input-block-level">
-                        <input type="email" placeholder="mail@domain.com" class="input-block-level">
-                        <input type="password" placeholder="密碼" class="input-block-level">
+                        <input type="text" placeholder="帳號" class="input-block-level" required="required">
+                        <input type="email" placeholder="mail@domain.com" class="input-block-level" required="required">
+                        <input type="password" placeholder="密碼" class="input-block-level" required="required">
                         <button class="btn btn-large btn-success btn-block" type="submit">點我註冊</button>
-
                     </form>
                 </div>
             </div>
